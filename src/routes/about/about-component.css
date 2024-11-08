@@ -1,0 +1,48 @@
+.mian-about{
+    display: flex;
+}
+
+.main-txt3{
+    width: 696px;
+    height: 200px;
+    top: 130px;
+    left: 776px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 26px;
+    font-weight: 400;  
+    line-height: 39px;
+    text-align: right;
+}
+.main-btn-3{
+    width: 334px;
+    height: 75px;
+    top: 378px;
+    left: 1138px;
+    padding: 25px 139px 14px 119px;
+    gap: 0px;
+    border: none;
+    border-radius: 40px ;
+    opacity: 0px;
+    background: #1AC648;
+    color: white;
+    font-family: Mirza;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 36px;
+    text-align: center;
+}
+.main-txt2-about{
+    width: 300px;
+    height: 90px;
+    top: 40px;
+    left: 1189px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Mirza;
+    font-size: 75px;
+    font-weight: 600;
+    line-height: 90px;
+    text-align: center;
+}

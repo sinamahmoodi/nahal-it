@@ -1,0 +1,217 @@
+.signup{
+    background: #E8F9ED;
+    overflow-y: hidden;
+    display: flex;
+    height: 735px;
+}
+.title-signup{
+font-size: 36px;
+font-weight: bold;
+line-height: 43.57px;
+text-align: center;
+margin-top: 30px;
+background-color: #fff;
+
+}
+.bio-signup{
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 16.94px;
+text-align: center;
+}
+.img-div{
+    background-color: #fff;
+    width: 730px;
+    height: 680px;
+    border-radius: 20px 20px 20px 20px;
+    opacity: 0px;
+    margin: 20px auto 0;
+    text-align: center;
+}
+.img-div-child{
+    margin: 100px auto 0;
+}
+.form-signup
+{
+    direction: rtl;
+    width: 730px;
+    height: 680px;
+    border-radius: 20px 0px 0px 20px;
+    opacity: 0px;
+    text-align: center;
+    margin: 20px auto 0;
+    background-color: #fff;
+}
+.logo-div{
+    width: 99px;
+height: 68px;
+top: 58px;
+left: 315px;
+gap: 0px;
+opacity: 0px;
+margin: 30px auto 0;
+}
+.button-signup{
+    background-color: #E8F5E9; /* رنگ پس‌زمینه مطابق تصویر */
+    border-radius: 25px;
+    width: 130px;
+    margin: 0 auto 0;
+   font-size: 16px;
+   font-weight: bolder;
+
+}
+.log-in {
+    padding: 10px 20px;
+    background-color: #ffffff; /* رنگ پس‌زمینه مطابق تصویر */
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bolder;
+    transition: transform 0.1s ease-in-out, box-shadow 0.1s ease-in-out;
+}
+.sign-up{
+    border: none;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+/* افکت هنگام کلیک روی دکمه */
+.sign-up:active {
+    transform: scale(0.95);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+/*---------------------------------*/
+/* استایل کلی برای کانتینر ورودی ثبت نام */
+.input-signup {
+    width: 200px;
+    margin:  20px auto 0;
+    direction: rtl;
+    font-family: Arial, sans-serif;
+    width: 300px;
+    text-align: right;
+    background-color: #fff;
+}
+
+/* استایل برای برچسب‌ها (span) */
+.input-signup span {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+    display: block;
+    background-color: #fff;
+    font-weight: bolder;
+}
+
+/* فیلدهای ورودی نام کاربری و رمز عبور */
+.input-user,
+.input-password {
+    width: 100%;
+    padding: 10px;
+    background-color:  #E4E4E4;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    font-size: 14px;
+    outline: none;
+}
+.input-user{
+    width: 60%;
+}
+
+/* لینک برای فراموشی رمز عبور */
+.input-signup a {
+    color: #d32f2f;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+/* .input-signup a:hover {
+    text-decoration: underline;
+} */
+
+/* دکمه اصلی برای ورود */
+.signup-button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.signup-button-child {
+    width: 100%;
+    background-color: #00c853; /* رنگ سبز */
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+.signup-button-child:hover {
+    background-color: #00b342; /* رنگ سبز تیره‌تر برای هاور */
+}
+
+.signup-button-child:active {
+    transform: scale(0.98);
+}
+
+/* استایل متن "یا وارد شوید با" */
+.or-signgoogle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    
+    color: #888;
+    font-size: 14px;
+}
+
+.hr-signup {
+    flex: 1;
+    height: 1px;
+    background-color: #ddd;
+    border: none;
+    margin: 0 10px;
+}
+.hr-sign {
+    flex: 1;
+    height: 1px;
+    width: 80%;
+    background-color: #ddd;
+    border: none;
+    margin: 20px auto 0;
+}
+
+/* دکمه‌های شبکه‌های اجتماعی */
+.fag {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.fag-child {
+    width: 40px;
+    height: 40px;
+    background-color: #f0f0f0;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.fag-child:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.fag-child img {
+    width: 20px;
+    height: 20px;
+}

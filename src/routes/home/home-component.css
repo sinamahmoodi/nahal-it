@@ -1,0 +1,84 @@
+.mian {
+    display: flex;
+    margin-top: 60px;
+}
+.img1 {
+    width: 722px;
+    height: 633px;
+    margin-left: 42px;
+    gap: 0px;
+    opacity: 0px;
+}
+.main-txt {
+    direction: rtl;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.main-txt1 {
+    background-color: #D1F4DA;
+    width: 457px;
+    height: 36px;
+    padding-top: 10px;
+    border-radius: 20px;
+    text-align: center;
+
+}
+.main-txt2 {
+    width: 608px;
+    height: 192px;
+    margin-top: 20px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Mirza;
+    font-size: 78px;
+    font-weight: 600;
+    text-align: right;
+}
+ul li::marker {
+    color: #10772B; /* رنگ نقاط */
+    font-size: 1.5rem; /* اندازه نقاط */
+  }
+
+li {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: right;
+  }
+  .main-btn{
+      text-align: center;
+      margin-top: 30px;
+  }
+.main-btn-1 {
+    width: 213px;
+    height: 53px;
+    margin-left: 20px;
+    padding: 16px 70px 7px 4px;
+    background-color: white;
+    border: 1px solid #031407;
+    font-family: Mirza;
+    font-size: 25px;
+    font-weight: 600;
+    border-radius: 5px;
+    text-align: right;
+}
+.main-btn-2 {
+    width: 213px;
+    height: 53px;
+    padding: 15px 37px 8px 38px;
+    background: #1AC648;
+    border: none;
+    box-shadow: 0px 7px 28px 0px #E8F9ED;
+    font-size: 25px;
+    color: white;
+    border-radius: 5px;
+    font-weight: 600;
+}
+/* /////////////////////////////////////////// */
+.main1-5{
+    background: #D1F4DA;
+    height: 30px;
+    width: 150%;
+    margin-right: -20px;
+}
